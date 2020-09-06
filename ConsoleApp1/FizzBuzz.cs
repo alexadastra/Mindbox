@@ -8,8 +8,8 @@ namespace ConsoleApp1
             foreach (var t in args)
             {
                 string s = "";
-                s += t % 3 == 0 ? "fizz" : "";
-                s += t % 5 == 0 ? "buzz" : "";
+                s += t % 3 == 0 ? "sas" : "";
+                s += t % 5 == 0 ? "sos" : "";
                 if (!(s.Equals("")))
                 {
                     Console.WriteLine(s);
